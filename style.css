@@ -63,6 +63,13 @@ h1, h2, h3, h4, h5, h6
 	background-size: cover;
 	min-height: 610px;
 }
+
+.header-image
+{
+    width: 60%;
+    height: auto;
+}
+
 .bg-color
 {
 	background-color: RGBA(0, 0, 0, 0.41);
@@ -90,7 +97,7 @@ h1, h2, h3, h4, h5, h6
 	letter-spacing: 2px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #FFD34E;
+    color: #dd9933;
     background-color: transparent;
     text-transform: uppercase;
 }
@@ -101,7 +108,7 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
-	color: #FFD34E;
+	color: #dd9933;
 }
 .wrapper
 {
@@ -141,7 +148,7 @@ h1, h2, h3, h4, h5, h6
 }
 .btn-submit
 {
-    background: #FFD34E;
+    background: #dd9933;
     border: 0px;
     display: inline-block;
     font-size: 16px;
@@ -167,7 +174,7 @@ h1, h2, h3, h4, h5, h6
 }
 .cta-info
 {
-	border: 5px solid #FFD34E;
+	border: 5px solid #dd9933;
 	padding: 40px 0px;
 }
 .cta-info h3
@@ -215,6 +222,7 @@ p
 	color: #888;
 }
 .icon {
+    color: #00195c;
     position: relative;
     height: 48px;
     width: 48px;
@@ -229,10 +237,13 @@ p
 .icon-text {
     margin-left: 73px;
     padding:0px 25px 25px 0px;
+
 }
 h3.txt-tl {
+    color: #67074e;
     font-size: 24px;
     line-height: 1.35;
+    text-transform: uppercase;
 }
 /****/
 .parallax {
@@ -241,7 +252,7 @@ h3.txt-tl {
     background-position: center center;
 }
 .bg-image-2 {
-    background: url('img/cta-banner.jpg') no-repeat center fixed;
+    background: url('img/placecards.jpg') no-repeat center fixed;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -266,6 +277,7 @@ h3.txt-tl {
 .cta-txt p
 {
 	color: #fff;
+    font-weight: bold;
 }
 /****/
 .portfolio-box
@@ -289,11 +301,11 @@ h3.txt-tl {
 {
 	border-radius: 0px;
 	color: #000;
-	background-color: #FFD34E;
+	background-color: #dd9933;
 }
 a, a:hover
 {
-	color: #FFD34E;
+	color: #dd9933;
 }
 .cont-title
 {
@@ -373,7 +385,7 @@ a, a:hover
     }
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
         background-color: rgba(255, 255, 255, 0.32);
-        color: #FFD34E;
+        color: #dd9933;
     }
     .top-title{
         font-size: 15px;
