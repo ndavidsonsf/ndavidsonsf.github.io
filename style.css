@@ -307,14 +307,32 @@ a, a:hover
 {
 	color: #dd9933;
 }
+
+#rsvp p.leading {
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #074e67;
+    line-height: 17px;
+}
 .cont-title
 {
-	font-size: 24px;
-	padding:15px 0px;
+	font-size: 28px;
+    margin-bottom: 8px;
+    color: #05878a;
+    line-height: 28px;
+    text-transform: uppercase;
 }
+
+#rsvp p.after {
+    font-size: 12px;
+    color: #074e67;
+}
+
 .location-info p span {
     display: inline-block;
 }
+
 .location-info p span {
     width: 40px;
     font-size: 24px;
@@ -335,7 +353,7 @@ a, a:hover
     right: 0;
     padding-right: 20px;
     font-size: 320px;
-    color: #555;
+    color: #6d0000;
     line-height: 300px;
     -ms-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
@@ -350,6 +368,7 @@ a, a:hover
 }
 .footer-copyright {
     color: #fff;
+    font-size: 7px;
     line-height: 32px;
     text-align: left;
 }
