@@ -222,6 +222,7 @@ p
 	color: #888;
 }
 .icon {
+    color: #00195c;
     position: relative;
     height: 48px;
     width: 48px;
@@ -236,10 +237,13 @@ p
 .icon-text {
     margin-left: 73px;
     padding:0px 25px 25px 0px;
+
 }
 h3.txt-tl {
+    color: #67074e;
     font-size: 24px;
     line-height: 1.35;
+    text-transform: uppercase;
 }
 /****/
 .parallax {
@@ -273,6 +277,7 @@ h3.txt-tl {
 .cta-txt p
 {
 	color: #fff;
+    font-weight: bold;
 }
 /****/
 .portfolio-box
