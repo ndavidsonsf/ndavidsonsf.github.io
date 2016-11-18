@@ -239,12 +239,16 @@ p
     padding:0px 25px 25px 0px;
 
 }
+#hotel {
+    font-weight: bold;
+}
 h3.txt-tl {
     color: #67074e;
     font-size: 24px;
     line-height: 1.35;
     text-transform: uppercase;
 }
+
 /****/
 .parallax {
     background-attachment: fixed;
